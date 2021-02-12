@@ -1,0 +1,45 @@
+
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  line-height: 1.618;
+  font-family: sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+fieldset,
+button {
+  border: 0;
+}
+
+.login {
+  min-width: 500px;
+  height: 100%;
+  padding: 30px;
+}
+
+
+.call {
+  width: calc(100% - 500px);
+  height: 100%;
+  background: rgb(24, 48, 89);
+  color: white;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background-color: limegreen;
+}
